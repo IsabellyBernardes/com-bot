@@ -1,0 +1,212 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    position: absolute;
+    width: 98.5%;
+    display: flex;
+    background: #043861;
+    padding: 10px; 
+    
+
+}
+
+.caixa{
+    position: relative;
+    width: 100%;
+    top: 20px;
+    margin: 0 auto;
+    margin-left: 200px;
+}
+
+nav {
+    top: 15px;
+    right: 0px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+    position: relative;
+    top: 10px;
+}
+
+nav a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #9ae06f;
+    transition: 300ms;
+}
+
+button {
+    background-color: #4ecadd;
+    border: none;
+    width: 65px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+button a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.botão2 a {
+    text-decoration: none;
+    color: azure;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button a:hover {
+    transition: 400ms;
+    color: black;
+
+}
+
+#divBusca{
+    position: relative;
+    width: 60%;
+    top: 32px;
+    margin: 0 auto;
+    margin-left: 120px;
+    border: none;
+}
+
+#txtBusca{
+    height: 25px;
+    border-radius: 20px;
+    border: none;
+}
+
+#titulo{
+font-weight: 70000px;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.cadastro{
+    display: inline-block;
+    background-color: black;
+    text-align: center;
+    position: absolute;
+    text-decoration: none;
+    width: 350px;
+    margin-top: 200px;
+    margin-left: 300px;
+    border-radius: 20px;
+}
+
+.cadastro li {
+    color: azure;
+    font-size: 15px;
+    margin-top: 2%;
+    margin-bottom: 30px;
+}
+
+.cadastro button {
+    margin-bottom: 30px;
+}
+
+#login{
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.cadastro button {
+    background-color: #14be30;
+    text-decoration: none;
+    width: 100px;
+    height: 40px;
+}
+
+
+#Bcadastrar a {
+    color: azure;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#Bcadastrar a:hover {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: bold;
+    transition: 500ms;
+}
+
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 240px;
+    margin-top:1100px;
+    background: url(banner111.png);
+    color: azure;
+}
+
+#footer {
+    position: absolute;
+    width: 100%;
+    height: 240px;
+    margin-top:900px;
+    background: url(banner111.png);
+    color: azure;
+}
+
+footer img {
+    width: 150px;
+    margin: 20px;
+}
+
+.letra {
+    position: relative;
+    text-align: center;
+    font-size: 13px;
+}
+
+.letra2 {
+    position: relative;
+    font-size: 15px;
+    margin-top: -140px;
+    margin-left: 190px;
+    padding: 5px;
+    
+}
+
+.letra2 a {
+    text-decoration: none;
+    color: azure;
+}
+
+.letra2 a:hover {
+    color: #9ae06f;
+}
+
+.letra3 {
+    position: relative;
+    font-size: 15px;
+    margin-top: -110px;
+    margin-left: 1000px;
+    text-decoration: none;
+}
+
+.letra3 a {
+    text-decoration: none;
+    color: azure;
+}
+
+.letra3 a:hover {
+    color: #9ae06f;
+}
